@@ -1,6 +1,6 @@
-const APP_ID = "YOUR APP ID"
-const TOKEN = "YOUR TEMP TOKEN"
-const CHANNEL = "YOUR CHANNEL NAME"
+const APP_ID = "973aff390c314bbeac624ea35fa91885"
+const TOKEN = "007eJxTYOB7ILze1Slx97x56Q+3ZV3fljyr/cdrH5UJE86rMQhwnYtUYLA0N05MSzO2NEg2NjRJSkpNTDYzMklNNDZNS7Q0tLAwFZ4andwQyMhQ+1GRmZEBAkF8AQbnxILikvy8VAX3ovzSAgVLBgYA83sjWQ=="
+const CHANNEL = "Capstone Group 9"
 
 const client = AgoraRTC.createClient({mode:'rtc', codec:'vp8'})
 
@@ -31,7 +31,7 @@ let joinStream = async () => {
     await joinAndDisplayLocalStream()
     document.getElementById('join-btn').style.display = 'none'
     document.getElementById('stream-controls').style.display = 'flex'
-}
+};
 
 let handleUserJoined = async (user, mediaType) => {
     remoteUsers[user.uid] = user 

@@ -1,7 +1,7 @@
 body{
     background:#0F2027;
     background:-webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027) ;
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, white, #ffffff, #ffffff);
 }
 
 #join-btn{
@@ -35,8 +35,8 @@ body{
 
 button{
     border:none;
-    background-color: cadetblue;
-    color:#fff;
+    background-color: #367e18;
+    color:#FFA3AC;
     padding:10px 20px;
     font-size:16px;
     margin:2px;
